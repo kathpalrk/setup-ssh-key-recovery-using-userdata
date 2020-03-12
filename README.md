@@ -3,7 +3,7 @@
 Sometimes ssh keys gets mis-placed or lost completely that you need to recover access to your server without them. In this article we are going to see how you can gain access to your server with a new set of keys using userdata field with minimal downtime to your environment.
 
 
-![Execute user data every boot](https://gitub.com/kathpalrk/setup-ssh-key-recovery-using-userdata-rk-00.png)
+![Execute user data every boot](https://github.com/kathpalrk/setup-ssh-key-recovery-using-userdata/blob/master/images/setup-ssh-key-recovery-using-userdata-rk-00.png)
 
 ### Prerequisites
 1. `Server WO Key` - EC2 Instance  - _Without Keys_
@@ -14,7 +14,7 @@ Login to the `Recovery Server` and execute the following command and copy the ou
 ```sh
 more /home/ec2-user/.ssh/authorized_keys
 ```
-![Execute user data every boot](https://github.com/kathpalrk/How-To/setup-ssh-key-recovery-using-userdata/images/setup-ssh-key-recovery-using-userdata-rk-01.png)
+![Execute user data every boot](https://github.com/kathpalrk/setup-ssh-key-recovery-using-userdata/blob/master/images/setup-ssh-key-recovery-using-userdata-rk-01.png)
 
 ### Update the key in the `Server WO Key`
 1. Stop the server.
